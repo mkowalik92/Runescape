@@ -16,6 +16,6 @@ total_mith_exp = per_mith_exp * user_mith_amount
 total_addy_exp = per_addy_exp * user_addy_amount
 total_rune_exp = per_rune_exp * user_rune_amount
 
-total_exp_with_pros = total_coal_exp + total_gold_exp + total_mith_exp + total_addy_exp + total_rune_exp
+total_exp_with_pros = (total_coal_exp + total_gold_exp + total_mith_exp + total_addy_exp + total_rune_exp)  * 1.025
 
-print(total_exp_with_pros * 1.025)
+print(total_exp_with_pros)
